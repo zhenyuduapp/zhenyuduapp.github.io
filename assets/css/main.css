@@ -16,7 +16,7 @@
 		font: inherit;
 		vertical-align: baseline;
 	}
-
+ 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
@@ -32,6 +32,16 @@
 	blockquote, q {
 		quotes: none;
 	}
+    
+
+    /*个人图片*/
+   .jia{
+   	width: 250px;height: 320px;
+   	position: fixed;left:0;top: 90px;
+   	margin-left: 580px;
+
+   }
+
 
 	blockquote:before, blockquote:after, q:before, q:after {
 		content: '';
@@ -46,7 +56,7 @@
 	body {
 		-webkit-text-size-adjust: none;
 	}
-
+    
 /* Box Model */
 
 	*, *:before, *:after {
